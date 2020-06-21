@@ -1,0 +1,488 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #000;
+    line-height: 30px;
+    text-align: center;
+    background-image: url(../img/backgrounds/EffectRecord-01.png),
+        url(../img/backgrounds/Tile9.png),
+        url(../img/backgrounds/Tile4.png),
+        url(../img/backgrounds/EffectElectro-01.png),
+        url(../img/backgrounds/EffectRecord-02.png),
+        url(../img/backgrounds/EffectElectro-02.png),
+        url(../img/backgrounds/Tile7.png),
+        url(../img/backgrounds/Tile3.png),
+        url(../img/backgrounds/EffectLines-01.png),
+        url(../img/backgrounds/EffectDragonBody.png);
+    background-repeat: no-repeat;
+    background-position: top -11.1% right -52%,
+        top 3% left -23%,
+        top 21% right -108%,
+        top 23.6% left -123%,
+        bottom 46.8% left -30%,
+        bottom 52% right -124%,
+        bottom 2% left -66%,
+        bottom 2.5% left -12.9%,
+        bottom 3% left 63%,
+        bottom -7% right -22%;
+}
+
+strong {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #A24090;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+h1,
+h2 {
+    margin-top: 10px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 58px;
+}
+
+h3 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.medium-paragraph {
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.colored-text {
+    color: #9b59b6;
+}
+
+::-moz-selection {
+    background: #9b59b6;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #9b59b6;
+    color: #fff;
+    text-shadow: none;
+}
+
+/***** General style, all sections *****/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.section-container {
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.section-container-gray-bg {
+    background: #f8f8f8;
+}
+
+.section-container-image-bg,
+.section-container-image-bg h2,
+.section-container-image-bg h3 {
+    color: #fff;
+}
+
+.section-container-image-bg .divider-1 span {
+    border-color: #fff;
+}
+
+.section-description {
+    /* margin-top: 60px; */
+    padding-bottom: 10px;
+}
+
+.section-description h2 {
+    text-align: right;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.section-container h2.bg-blue {
+    background-color: #009CDE;
+}
+
+.section-container h2.bg-h-45 {
+    height: 45%;
+}
+
+.section-container h2.bg-red {
+    background-color: #E30427;
+}
+
+.section-description p {
+    margin-top: 20px;
+    padding: 0 120px;
+}
+
+.section-container-image-bg .section-description p {
+    opacity: 0.8;
+}
+
+.section-bottom-button {
+    padding-top: 60px;
+}
+
+/*** Slick Slider ***/
+.slick-dots li {
+    margin: 0;
+}
+
+.product-slider .slick-list {
+    width: 100%;
+}
+
+.product-slider .slick-dots li button:before {
+    color: #fff;
+    font-size: 10px;
+}
+
+.product-slider .slick-dots li.slick-active button:before {
+    color: #009CDE;
+}
+
+.artist-slider {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.artist-slider .slick-dots li button:before {
+    color: #fff;
+    font-size: 10px;
+}
+
+.artist-slider .slick-dots li.slick-active button:before {
+    color: #E30427;
+}
+
+.artist-slider .slick-slide img {
+    width: 98%;
+    margin-right: 20px;
+}
+
+
+/***** Top menu *****/
+
+.navbar {
+    background: #444;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #ae59fb;
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-brand {
+    width: 136px;
+    border: 0;
+    text-indent: -99999px;
+}
+
+.nav-item {
+    text-align: left;
+    line-height: 1.3rem;
+
+}
+
+.nav-item:not(:last-child) {
+    width: 150px;
+    border-right: 1px solid #525252;
+
+}
+
+/***** Top content *****/
+
+.top-content {
+    padding: 50px 0;
+    margin: 100px 0;
+
+}
+
+.top-content h1 {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.top-content-text {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.top-content-text h3 {
+    margin-top: 60px;
+}
+
+/***** Product *****/
+.product-box {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.product-box .product-box-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 28px;
+}
+
+.spike-section {
+    position: relative;
+}
+
+.spike-section img {
+    position: absolute;
+    z-index: 1;
+}
+
+.spike1 {
+    left: 59%;
+
+}
+
+.spike2 {
+    left: 59%;
+    top: -6px;
+}
+
+.spike3 {
+    top: 340px;
+    right: 63%;
+}
+
+.spike4 {
+    top: 381px;
+    right: 61%;
+}
+
+.product-box h3 {
+    margin-top: 15px;
+}
+
+.product-box-text {
+    text-align: center;
+}
+
+.product-slider img {
+
+    margin: auto;
+}
+
+/*** Artist ***/
+.artist-content {
+    overflow: hidden;
+    margin-top: -65px;
+}
+
+.artist-content p {
+    margin: 120px 70px;
+    text-align: left;
+}
+
+.artist-album-container {
+    margin-top: 57;
+}
+
+.artist-album-text {
+    text-align: right;
+}
+
+.artist-album-des {
+    width: 40%;
+    padding-right: 66.5px;
+    padding-top: 8%;
+}
+
+.artist-album-des h1 {
+    font-style: italic;
+}
+
+.large-blue-bg {
+    position: absolute;
+    height: 286px;
+    background: #004B9B;
+    width: 100%;
+    margin-top: 70px;
+    z-index: -1;
+}
+
+/***** Redeem *****/
+.redeem-container {
+    padding-bottom: 70px;
+    margin-top: -75px;
+}
+
+.redeem-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.redeem-list a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.redeem-list .last-element {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.redeem-text a:hover,
+.redeem-text a:focus {
+    color: #fff;
+    border: 0;
+}
+
+/*** Animation ***/
+.slideInUp {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+}
+
+.is-active .slideInUp {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.fadeInImg {
+    opacity: 0;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.fadeSpike {
+    opacity: 0;
+
+}
+
+.spikeShow {
+    opacity: 1;
+    z-index: 1;
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.slideHide {
+    left: -700px;
+    transition: 1s;
+}
+
+.slideRight {
+    left: 0;
+    transition: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}

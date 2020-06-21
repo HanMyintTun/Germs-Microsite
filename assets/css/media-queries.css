@@ -1,0 +1,322 @@
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(../img/backgrounds/EffectRecord-01.png),
+            url(../img/backgrounds/Tile9.png),
+            url(../img/backgrounds/Tile4.png),
+            url(../img/backgrounds/EffectElectro-01.png),
+            url(../img/backgrounds/EffectRecord-02.png),
+            url(../img/backgrounds/EffectElectro-02.png),
+            url(../img/backgrounds/Tile7.png),
+            url(../img/backgrounds/Tile3.png),
+            url(../img/backgrounds/EffectLines-01.png),
+            url(../img/backgrounds/EffectDragonBody.png);
+        background-repeat: no-repeat;
+        background-position: top -11.1% right -28%,
+        top 3% left -13%,
+        top 17% right -41%,
+        top 29.6% left -64%,
+        bottom 47.8% left -18%,
+        bottom 56% right -65%,
+        bottom 0% left -39%,
+        bottom 0.5% left -9.9%,
+        bottom -1% left -443%,
+        bottom -7% right -15%;
+    }
+    .top-content{
+        padding-top: 200px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        background-image: url(../img/backgrounds/EffectRecord-01.png),
+            url(../img/backgrounds/Tile9.png),
+            url(../img/backgrounds/Tile4.png),
+            url(../img/backgrounds/EffectElectro-01.png),
+            url(../img/backgrounds/EffectRecord-02.png),
+            url(../img/backgrounds/EffectElectro-02.png),
+            url(../img/backgrounds/Tile7.png),
+            url(../img/backgrounds/Tile3.png),
+            url(../img/backgrounds/EffectLines-01.png),
+            url(../img/backgrounds/EffectDragonBody.png);
+        background-repeat: no-repeat;
+        background-position: top -11.1% right -58%,
+            top 3% left -25%,
+            top 18% right -123%,
+            top 23.6% left -147%,
+            bottom 48.8% left -34%,
+            bottom 52% right -166%,
+            bottom 2% left -91%,
+            bottom 2.5% left -12.9%,
+            bottom 3% left 63%,
+            bottom -7% right -22%
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .product-box .product-box-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        line-height: 60px;
+        border-radius: 22px;
+    }
+}
+
+/*** Portrait ***/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+    body {
+		background-size: 60%;
+        background-image: url(../img/backgrounds/EffectRecord-01.png),
+            url(../img/backgrounds/Tile9.png),
+            url(../img/backgrounds/Tile4.png),
+            url(../img/backgrounds/EffectElectro-01.png),
+            url(../img/backgrounds/EffectRecord-02.png),
+            url(../img/backgrounds/EffectElectro-02.png),
+            url(../img/backgrounds/Tile7.png),
+            url(../img/backgrounds/Tile3.png),
+            url(../img/backgrounds/EffectLines-01.png),
+            url(../img/backgrounds/EffectDragonBody.png);
+        background-repeat: no-repeat;
+        background-position: top -5% right -72%,
+		top 1% left -95%,
+		top 20% right -95%,
+		top 24.6% left -75%,
+		bottom 52.8% left -76%,
+		bottom 47% right -76%,
+		bottom 21% left -35%,
+		bottom 14.5% left -88.9%,
+		bottom 25% left 63%,
+		bottom -5% right -53%;
+	}
+	.section-description{
+		max-width: 100%;
+	}
+	.section-description h2{
+		min-width: 150%;
+		font-size: 40px;
+    }
+    .slider-for-artist{
+        width: 50%;
+    }
+	.artist-album-des{
+		text-align: left;
+		width: 100%;
+	}
+	/* .redeem-box{
+		width:150%;
+	} */
+	/* .redeem-box .redeem-image{
+		width:120%;
+	}
+	.redeem-box p{
+		width:120%;
+	} */
+}
+
+/*** landscape ***/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+    body {
+		background-size: 60%;
+        background-image: url(../img/backgrounds/EffectRecord-01.png),
+            url(../img/backgrounds/Tile9.png),
+            url(../img/backgrounds/Tile4.png),
+            url(../img/backgrounds/EffectElectro-01.png),
+            url(../img/backgrounds/EffectRecord-02.png),
+            url(../img/backgrounds/EffectElectro-02.png),
+            url(../img/backgrounds/Tile7.png),
+            url(../img/backgrounds/Tile3.png),
+            url(../img/backgrounds/EffectLines-01.png),
+            url(../img/backgrounds/EffectDragonBody.png);
+        background-repeat: no-repeat;
+        background-position: top -5% right -72%,
+		top 1% left -95%,
+		top 20% right -95%,
+		top 24.6% left -75%,
+		bottom 52.8% left -76%,
+		bottom 47% right -76%,
+		bottom 21% left -35%,
+		bottom 14.5% left -88.9%,
+		bottom 25% left 63%,
+		bottom -5% right -53%;
+	}
+	.section-description{
+		max-width: 100%;
+	}
+	.section-description h2{
+		min-width: 150%;
+		font-size: 40px;
+	}
+	.artist-album-des{
+		text-align: left;
+		width: 100%;
+	}
+	/* .redeem-box{
+		width:150%;
+	} */
+	/* .redeem-box .redeem-image{
+		width:120%;
+	}
+	.redeem-box p{
+		width:120%;
+	} */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+    .section-description p {
+        padding: 0;
+    }
+	.top-content {
+        padding: 20px 0;
+        margin-bottom: 0px;
+    }
+
+    .product-box .product-box-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        line-height: 50px;
+        border-radius: 18px;
+    }
+	.artist-slider .slick-slide img {
+		width: 86%;
+		margin: 0px;
+	}
+
+
+}
+
+@media (max-width: 767px) {
+    body {
+        background-size: 40%;
+        background-image: url(../img/backgrounds/EffectRecord-01.png),
+            url(../img/backgrounds/Tile9.png),
+            url(../img/backgrounds/Tile4.png),
+            url(../img/backgrounds/EffectRecord-02.png),
+            url(../img/backgrounds/Tile7.png),
+            url(../img/backgrounds/Tile3.png),
+            url(../img/backgrounds/EffectDragonBody.png);
+        background-repeat: no-repeat;
+        background-position: top -0.5% right -25%,
+            top 13% left -43%,
+            top 17.5% right -36%,
+            top 52.6% left 112%,
+            bottom 8% left -24%,
+            bottom 6% left -44%,
+            bottom -2% right -28%;
+    }
+    p {
+        font-size: 16px;
+    }
+    h1,
+    h2 {
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-top: 10px !important;
+        line-height: 30px;
+    }
+    .navbar.navbar-no-bg {
+        background: #444;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: #444;
+    }
+    .navbar-dark .navbar-toggler:focus {
+        background: #333;
+        outline: 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    .nav-item {
+        border-right: none !important;
+    }
+    .top-content {
+        padding: 20px 0;
+        margin-bottom: 0px;
+    }    
+
+    .top-content-text {
+        text-align: center;
+    }
+    .section-description h2 {
+        text-align: left;
+        padding-left: 15px;
+    }
+    .section-description p {
+        padding: 0;
+    }
+    .product-container {
+        padding-bottom: 5px;
+        background: url(../img/backgrounds/EffectElectro-01.png) no-repeat;
+        background-size: 500px 850px;
+        background-position: top -10% right -100%;
+    }
+    .product-box {
+        text-align: center;
+    }
+    .product-box h3 {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .spike1{
+        top:-30px;
+       
+    }
+    .spike2{
+       top:-46px;
+    }
+    .spike3{
+        top: 258px;
+    }
+    .spike4{
+        top: 303px;
+    }
+    .artist-container {
+        background: url(../img/backgrounds/EffectElectro-02.png) no-repeat;
+        background-size: 500px 700px;
+        background-position: top 1% left -99%;
+    }
+    .artist-content {
+        margin-top: 0px;
+    }
+    .artist-content p {
+        margin: 10px 15px;
+        text-align: center;
+    }
+    .artist-slider {
+        margin: 0px;
+    }
+    .artist-slider .slick-slide img {
+        width: 90%;
+        margin: 0px;
+    }
+    .large-blue-bg {
+        height: 120px;
+    }
+    .artist-album-des {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .redeem-container {
+        background: url(../img/backgrounds/EffectLines-01.png) no-repeat;
+        background-size: 500px 500px;
+        background-position: top -4% left 29%;
+    }
+}
+
+@media (max-width: 415px) {
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+
+}
