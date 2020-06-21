@@ -435,7 +435,7 @@ img {
 .spikeShow {
     opacity: 1;
     z-index: 1;
-    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    animation: shake 1s cubic-bezier(.4, .49, .66, .6);
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
@@ -456,12 +456,12 @@ img {
     30%,
     50%,
     70% {
-        transform: translate3d(-4px, 0, 0);
+        transform: translate3d(-1px, 0, 0);
     }
 
     40%,
     60% {
-        transform: translate3d(4px, 0, 0);
+        transform: translate3d(1px, 0, 0);
     }
 }
 
