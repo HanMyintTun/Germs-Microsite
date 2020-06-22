@@ -69,7 +69,7 @@ jQuery(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 
 	//get all triggers  - headers of all section
-	var texts = ["#slide01 .container", "#slide02 .container", "#slide03 .container", "#slide04 .container"];
+	var texts = ["#slide01 .container", "#slide02 .container", "#slide03 .container"];
 
 	//Scene 1
 	texts.forEach(function (text, index) {
@@ -79,12 +79,20 @@ jQuery(document).ready(function () {
 		//create scene 
 		var textScene = new ScrollMagic.Scene({
 				triggerElement: text,
-				duration: 700,
-				offset: 100
+				duration: 1000,
+				offset: 50
 			})
 			.setClassToggle('#slide0' + num, 'is-active')
 			.addTo(controller);
 	})
+	//Scene 2
+	var textScene2 = new ScrollMagic.Scene({
+			triggerElement: '#slide04',
+			duration: 1000,
+			offset: -200
+		})
+		.setClassToggle('#slide04', 'is-active')
+		.addTo(controller);
 	//Deal
 	var imgDealScene = new ScrollMagic.Scene({
 			triggerElement: '.top-content',
@@ -98,7 +106,7 @@ jQuery(document).ready(function () {
 	var imgProductScene = new ScrollMagic.Scene({
 			triggerElement: '.product-container',
 			duration: 1200,
-			offset: 150
+			offset: 100
 
 		})
 		.setClassToggle('.productImg', 'show')
@@ -108,7 +116,7 @@ jQuery(document).ready(function () {
 	var imgProductSpikeScene = new ScrollMagic.Scene({
 			triggerElement: '.product-container',
 			duration: 1200,
-			offset: 150
+			offset: 100
 
 		})
 		.setClassToggle('.fadeSpike', 'spikeShow')
@@ -118,7 +126,7 @@ jQuery(document).ready(function () {
 	var slideProductScene = new ScrollMagic.Scene({
 			triggerElement: '.product-container',
 			duration: 1200,
-			offset: 150
+			offset: 100
 
 		})
 		.setClassToggle('.productSlide', 'slideRight')
@@ -128,8 +136,8 @@ jQuery(document).ready(function () {
 	//Artist
 	var imgArtistScene = new ScrollMagic.Scene({
 			triggerElement: '.artist-container',
-			duration: 1400,
-			offset: 150
+			duration: 1300,
+			offset: 100
 
 		})
 		.setClassToggle('.artistImg', 'show')
@@ -138,7 +146,7 @@ jQuery(document).ready(function () {
 	var slideArtistScene = new ScrollMagic.Scene({
 			triggerElement: '.artist-container',
 			duration: 1200,
-			offset: 150
+			offset: 100
 
 		})
 		.setClassToggle('.artistSlide', 'slideRight')
@@ -148,7 +156,7 @@ jQuery(document).ready(function () {
 	var imgRedeemScene = new ScrollMagic.Scene({
 			triggerElement: '.redeem-container',
 			duration: 900,
-			offset: 150
+			offset: 100
 
 		})
 		// .addIndicators({
@@ -164,7 +172,7 @@ jQuery(document).ready(function () {
 	var slideRedeemScene = new ScrollMagic.Scene({
 			triggerElement: '.redeem-container',
 			duration: 1200,
-			offset: 150
+			offset: 100
 
 		})
 		.setClassToggle('.redeemSlide', 'slideRight')
